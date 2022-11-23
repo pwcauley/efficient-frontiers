@@ -7,7 +7,7 @@ Module containing functions that grab stock data from Alpha Vantage
 and use historical returns (or provided expected returns) to create
 a Resampled Efficient Frontier for the asset portfolio. The idea
 of resampled frontiers comes from Michaud & Michaud 2008 and produces
-smoother, more coservative portfolio transitions from one risk level
+smoother, more conservative portfolio transitions from one risk level
 to another compared to classical mean-variance efficient frontiers from
 Markowitz 1956.
 
