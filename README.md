@@ -2,10 +2,11 @@
 Module containing functions that grab stock data from Alpha Vantage
 and use historical returns (or provided expected returns) to create
 a Resampled Efficient Frontier for the asset portfolio. The idea
-of resampled frontiers comes from Michaud & Michaud 2008 and produces
+of resampled frontiers comes from Michaud & Michaud 2008 (https://www.newfrontieradvisors.com/media/1138/estimation-error-and-portfolio-optimization-12-05.pdf) and produces
 smoother, more conservative portfolio transitions from one risk level
 to another compared to classical mean-variance efficient frontiers from
-Markowitz 1956.
+Markowitz 1956. See the Wikipedia page for more information on 
+portfolio optimization (https://en.wikipedia.org/wiki/Modern_portfolio_theory).
 
 Note that the frontier resampler and plot functions can be used without
 querying Alpha Vantage. This module was written in part to get experience
