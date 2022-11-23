@@ -9,12 +9,13 @@ Markowitz 1956. The portfolio optimization and resampling techniques in this
 module do not consider portfolio rebalancing or any time-to-trade rules; the
 portfolios are considered static and trading decisions are left to the user.
 See the Wikipedia page for more information on portfolio optimization (https://en.wikipedia.org/wiki/Modern_portfolio_theory).
+The figures below show examples of efficient frontiers (left panel) and
+resampled portfolio composition as a function of risk (right panel).
 
-<img
-  src="portfolio_compositions.png"
-  alt="Alt text"
-  title="Example of a portfolio composition plot"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+<p float="left">
+  <img src="efficient_frontiers.png" width="500" />
+  <img src="portfolio_compositions.png" width="500" /> 
+</p>
 
 Note that the frontier resampler and plot functions can be used without
 querying Alpha Vantage. This module was written in part to get experience
