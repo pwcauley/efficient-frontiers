@@ -1,4 +1,4 @@
-# efficient_frontiers
+# efficient-frontiers
 Module containing functions that grab stock data from Alpha Vantage
 and use historical returns (or provided expected returns) to create
 a Resampled Efficient Frontier for the asset portfolio. The idea
