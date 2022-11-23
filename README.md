@@ -16,13 +16,20 @@ frontier calculations.
 Functions
 ---------
 get_stock_info
+
 frontier_resampler
+
 ref_plots
     
 Package dependencies
 --------------------
 numpy
+
 pandas
+
 alpha_vantage.timeseries
+
 cvxopt
+
 matplotlib
+
