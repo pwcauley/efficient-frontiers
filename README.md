@@ -10,7 +10,7 @@ module do not consider portfolio rebalancing or any time-to-trade rules; the
 portfolios are considered static and trading decisions are left to the user.
 See the Wikipedia page for more information on portfolio optimization (https://en.wikipedia.org/wiki/Modern_portfolio_theory).
 
-![My Image](portfolio_compositions.jpg)
+![My Image](portfolio_compositions.png)
 
 Note that the frontier resampler and plot functions can be used without
 querying Alpha Vantage. This module was written in part to get experience
