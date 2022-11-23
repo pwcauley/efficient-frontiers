@@ -46,7 +46,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 
-def get_stock_info(av_api_key: str, tickers: list[str], start_date='2017-01-01',
+def get_stock_info(av_api_key, tickers, start_date='2017-01-01',
                    end_date=None):
 
     """Retrieve annualized stock returns, standard deviations, and correlations
