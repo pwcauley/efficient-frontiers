@@ -13,8 +13,8 @@ The figures below show examples of efficient frontiers (left panel) and
 resampled portfolio composition as a function of risk (right panel).
 
 <p float="left">
-  <img src="efficient_frontiers.png" width="500" />
-  <img src="portfolio_compositions.png" width="500" /> 
+  <img src="efficient_frontiers.png" width="450" />
+  <img src="portfolio_compositions.png" width="450" /> 
 </p>
 
 Note that the frontier resampler and plot functions can be used without
